@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-div {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-div ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.header-div ul li{
+    margin: 0 2rem;
+}
