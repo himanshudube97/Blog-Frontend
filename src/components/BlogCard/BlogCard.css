@@ -1,0 +1,26 @@
+.card-div{
+border: 1px solid gray;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+/* width: 30rem; */
+/* flex-wrap: wrap; */
+height: 35rem;
+flex: 1 1 30rem;
+min-width: 25rem;
+max-width: 32rem;
+
+}
+.card-div:hover {
+    box-shadow: orange 0px 5px 20px;
+}
+
+.img-div {
+    width: 20rem ;
+    height: 25rem  ;
+    border: 1px solid green;
+    margin: 1rem auto;
+}
+
+.blog-info-div {
+    text-align: center;
+}

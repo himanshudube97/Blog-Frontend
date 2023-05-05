@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.allblogs-div {
+  border: 2px solid grey;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+  margin: 6rem 6rem;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 6rem;
+
+}

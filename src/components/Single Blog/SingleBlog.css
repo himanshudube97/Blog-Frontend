@@ -1,0 +1,15 @@
+.main-blog-div {
+    border: 2px solid red;
+    margin: 6rem 6rem;
+    
+}
+.blog-img-div {
+    border: 2px solid blue;
+    margin: 2rem auto;
+    height: 60vh;
+    width: 80vh;
+}
+
+.blog-info-div {
+    border: 1px solid green;
+}
