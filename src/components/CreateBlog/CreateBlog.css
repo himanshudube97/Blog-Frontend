@@ -1,0 +1,38 @@
+.create-blog-fields {
+    background-color: red;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 1rem;
+}
+.group {
+    margin: 10px 0;
+}
+.create-blog-fields h3 {
+    font-size: 1.5rem;
+}
+.create-blog-fields input {
+    height: 2rem;
+    width: 60%;
+    border-radius:  10px;
+    padding: 1rem;
+}
+.create-blog-fields .textarea {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 1rem;
+    background-color: white;
+    height:  50vh;
+    overflow: auto;
+    width: 60%;
+}
+
+button {
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 8rem;
+    height: 3rem;
+    padding: 2px;
+    background-color: green;
+}

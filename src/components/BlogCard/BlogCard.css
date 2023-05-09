@@ -21,6 +21,8 @@ max-width: 32rem;
     margin: 1rem auto;
 }
 
-.blog-info-div {
+.blog-info-div{
     text-align: center;
+    border: 1px solid red;
+    padding: 0 1rem;
 }

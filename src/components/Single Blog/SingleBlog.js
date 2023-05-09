@@ -21,7 +21,7 @@ const SingleBlog = () => {
         <div className="blog-img-div">
           <img src="" alt="img" />
         </div>
-        <div className="blog-info-div">
+        <div className="blog-info">
           <h1>{blog.title}</h1>
           <h3>Author: {blog.authorName}</h3>
           {/* <h2>{blog.description}</h2> */}
