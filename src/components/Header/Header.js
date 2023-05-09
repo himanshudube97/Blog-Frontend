@@ -1,4 +1,6 @@
 import "./Header.css";
+import Logout from "../Logout/Logout";
+import axios from "axios";
 
 export default function ButtonAppBar() {
   return (
@@ -12,6 +14,7 @@ export default function ButtonAppBar() {
                 <li>About</li>
                 <li>Careers</li>
                 <li>Contact Us</li>
+                <Logout />
             </ul>
         </div>
     </div>
