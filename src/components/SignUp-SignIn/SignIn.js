@@ -28,6 +28,10 @@ const SignIn = () => {
 
       if (response?.data?.statusCode === 200) {
         localStorage.setItem("token", response?.data?.token);
+        localStorage.setItem("_id", response?.data?.user._id );
+        localStorage.setItem("role", response?.data?.user.role );
+        localStorage.setItem("email", response?.data?.user.email);
+
         navigate("/");
         window.history.go();
       }else{
@@ -39,6 +43,8 @@ const SignIn = () => {
       console.log(error, "error");
     }
   };
+
+ 
 
   return (
     <div className="main-sign-div">
